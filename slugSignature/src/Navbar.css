@@ -1,0 +1,22 @@
+.Navbar {
+    height: 40px;
+    top: 0px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    background-color: #5385E7;
+    padding-bottom: 50px;
+    margin: 0px;
+    margin-top: -33px;
+}
+
+img{
+    height: 70px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.title {
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,86 @@
+/* 
+    Following resources are used for this module:
+    https://www.w3schools.com/w3css/defaulT.asp
+    
+*/
+
+.Input {
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding-left: 8px;
+    color: rgb(105, 105, 105);
+}
+
+form {
+    position: relative;
+    text-align: center;
+    top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+label {
+    color: rgb(0, 0, 0);
+    top: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    top: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-align:left;
+}
+
+input {
+    padding: 20px;
+    text-align: left;
+    box-align: center;
+    top: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    border: none;
+    width: 75%;
+    background-color: #c4cad0;
+    border-radius: 30px;
+}
+
+div.box{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    box-align: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .box {
+        width: 300%;
+    }
+}
+
+.test {
+    opacity: 0;
+}
+
+#photoUpload {
+    background-color: #5385E7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}

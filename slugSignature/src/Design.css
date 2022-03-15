@@ -1,0 +1,27 @@
+.Design {
+    color: white;
+    
+}
+
+.image-container {
+    position: inherit;
+}
+
+.image-container img {
+    position: relative;
+    right: 0px;
+    top: 0px;
+    bottom: 250px;
+    margin: auto auto;
+    width: 350px;
+    height: 180px; 
+}
+
+/* Resource used: https://www.w3schools.com/csS/css3_buttons.asp */
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}

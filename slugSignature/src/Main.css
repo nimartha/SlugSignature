@@ -1,0 +1,12 @@
+body {
+    background-color: #DBDBDB;
+    margin: 0px;
+}
+
+.Main {
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(23, 43, 158);
+    top: 500px;
+    font-size: large;
+}
